@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #4D4D4D;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    background: linear-gradient(to right,#B7410E, #228B22, #DAA520 );
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+}
+li {
+    flex: 1;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+#first{
+    background-color: #B7410E;
+}
+#second{
+    background-color: #228B22;
+}
+#third{
+    background-color:  #DAA520;
+}

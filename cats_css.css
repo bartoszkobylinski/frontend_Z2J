@@ -1,0 +1,27 @@
+body{
+    background-color: #8bc34a;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.card{ 
+    align-items: flex-end;
+    border: 0.5rem #a52a2a solid;
+    background-color: #b97a5c;
+    padding: 0.5rem;
+    width: 20rem;
+    margin: 0.5rem;
+}
+img{
+    object-fit: cover;
+}
+.text_container h3{
+    text-align: center;
+}
